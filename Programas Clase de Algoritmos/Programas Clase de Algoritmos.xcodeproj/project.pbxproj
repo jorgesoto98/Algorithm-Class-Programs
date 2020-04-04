@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3644E6B624381AA3002EB6FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3644E6B524381AA3002EB6FE /* main.cpp */; };
+		3644E6C124381AEB002EB6FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3644E6C024381AEB002EB6FE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3644E6A324381A62002EB6FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3644E6B124381AA3002EB6FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3644E6BC24381AEB002EB6FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3644E6A524381A62002EB6FE /* Programas Clase de Algoritmos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programas Clase de Algoritmos"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644E6B324381AA3002EB6FE /* Tarea 08- Audiophobia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tarea 08- Audiophobia"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644E6B524381AA3002EB6FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3644E6BE24381AEB002EB6FE /* Algoritmo de Floyd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algoritmo de Floyd"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644E6C024381AEB002EB6FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3644E6A224381A62002EB6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644E6B024381AA3002EB6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644E6BB24381AEB002EB6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3644E69C24381A62002EB6FE = {
+			isa = PBXGroup;
+			children = (
+				3644E6B424381AA3002EB6FE /* Tarea 08- Audiophobia */,
+				3644E6BF24381AEB002EB6FE /* Algoritmo de Floyd */,
+				3644E6A624381A62002EB6FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3644E6A624381A62002EB6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3644E6A524381A62002EB6FE /* Programas Clase de Algoritmos */,
+				3644E6B324381AA3002EB6FE /* Tarea 08- Audiophobia */,
+				3644E6BE24381AEB002EB6FE /* Algoritmo de Floyd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3644E6B424381AA3002EB6FE /* Tarea 08- Audiophobia */ = {
+			isa = PBXGroup;
+			children = (
+				3644E6B524381AA3002EB6FE /* main.cpp */,
+			);
+			path = "Tarea 08- Audiophobia";
+			sourceTree = "<group>";
+		};
+		3644E6BF24381AEB002EB6FE /* Algoritmo de Floyd */ = {
+			isa = PBXGroup;
+			children = (
+				3644E6C024381AEB002EB6FE /* main.cpp */,
+			);
+			path = "Algoritmo de Floyd";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3644E6A424381A62002EB6FE /* Programas Clase de Algoritmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3644E6AC24381A62002EB6FE /* Build configuration list for PBXNativeTarget "Programas Clase de Algoritmos" */;
+			buildPhases = (
+				3644E6A124381A62002EB6FE /* Sources */,
+				3644E6A224381A62002EB6FE /* Frameworks */,
+				3644E6A324381A62002EB6FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Programas Clase de Algoritmos";
+			productName = "Programas Clase de Algoritmos";
+			productReference = 3644E6A524381A62002EB6FE /* Programas Clase de Algoritmos */;
+			productType = "com.apple.product-type.tool";
+		};
+		3644E6B224381AA3002EB6FE /* Tarea 08- Audiophobia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3644E6B724381AA4002EB6FE /* Build configuration list for PBXNativeTarget "Tarea 08- Audiophobia" */;
+			buildPhases = (
+				3644E6AF24381AA3002EB6FE /* Sources */,
+				3644E6B024381AA3002EB6FE /* Frameworks */,
+				3644E6B124381AA3002EB6FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tarea 08- Audiophobia";
+			productName = "Tarea 08- Audiophobia";
+			productReference = 3644E6B324381AA3002EB6FE /* Tarea 08- Audiophobia */;
+			productType = "com.apple.product-type.tool";
+		};
+		3644E6BD24381AEB002EB6FE /* Algoritmo de Floyd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3644E6C224381AEB002EB6FE /* Build configuration list for PBXNativeTarget "Algoritmo de Floyd" */;
+			buildPhases = (
+				3644E6BA24381AEB002EB6FE /* Sources */,
+				3644E6BB24381AEB002EB6FE /* Frameworks */,
+				3644E6BC24381AEB002EB6FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algoritmo de Floyd";
+			productName = "Algoritmo de Floyd";
+			productReference = 3644E6BE24381AEB002EB6FE /* Algoritmo de Floyd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3644E69D24381A62002EB6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jorge Soto";
+				TargetAttributes = {
+					3644E6A424381A62002EB6FE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3644E6B224381AA3002EB6FE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3644E6BD24381AEB002EB6FE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 3644E6A024381A62002EB6FE /* Build configuration list for PBXProject "Programas Clase de Algoritmos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3644E69C24381A62002EB6FE;
+			productRefGroup = 3644E6A624381A62002EB6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3644E6A424381A62002EB6FE /* Programas Clase de Algoritmos */,
+				3644E6B224381AA3002EB6FE /* Tarea 08- Audiophobia */,
+				3644E6BD24381AEB002EB6FE /* Algoritmo de Floyd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3644E6A124381A62002EB6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644E6AF24381AA3002EB6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644E6B624381AA3002EB6FE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3644E6BA24381AEB002EB6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3644E6C124381AEB002EB6FE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3644E6AA24381A62002EB6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3644E6AB24381A62002EB6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3644E6AD24381A62002EB6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3644E6AE24381A62002EB6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3644E6B824381AA4002EB6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3644E6B924381AA4002EB6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3644E6C324381AEB002EB6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3644E6C424381AEB002EB6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3644E6A024381A62002EB6FE /* Build configuration list for PBXProject "Programas Clase de Algoritmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644E6AA24381A62002EB6FE /* Debug */,
+				3644E6AB24381A62002EB6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644E6AC24381A62002EB6FE /* Build configuration list for PBXNativeTarget "Programas Clase de Algoritmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644E6AD24381A62002EB6FE /* Debug */,
+				3644E6AE24381A62002EB6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644E6B724381AA4002EB6FE /* Build configuration list for PBXNativeTarget "Tarea 08- Audiophobia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644E6B824381AA4002EB6FE /* Debug */,
+				3644E6B924381AA4002EB6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644E6C224381AEB002EB6FE /* Build configuration list for PBXNativeTarget "Algoritmo de Floyd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3644E6C324381AEB002EB6FE /* Debug */,
+				3644E6C424381AEB002EB6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3644E69D24381A62002EB6FE /* Project object */;
+}
