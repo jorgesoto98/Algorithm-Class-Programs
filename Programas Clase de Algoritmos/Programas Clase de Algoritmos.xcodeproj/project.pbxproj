@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3644E6B624381AA3002EB6FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3644E6B524381AA3002EB6FE /* main.cpp */; };
 		3644E6C124381AEB002EB6FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3644E6C024381AEB002EB6FE /* main.cpp */; };
+		36483AA52444AB1700E9F049 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36483AA42444AB1700E9F049 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		36483A952444AA7E00E9F049 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		36483AA02444AB1700E9F049 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +66,9 @@
 		3644E6B524381AA3002EB6FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3644E6BE24381AEB002EB6FE /* Algoritmo de Floyd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algoritmo de Floyd"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3644E6C024381AEB002EB6FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36483A972444AA7E00E9F049 /* Multiplicación Encadenada de Matrices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiplicación Encadenada de Matrices"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36483AA22444AB1700E9F049 /* Multiplicación encadenada de matrices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiplicación encadenada de matrices"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36483AA42444AB1700E9F049 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Multiplicación Encadenada de Matrices/main.cpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36483A942444AA7E00E9F049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36483A9F2444AB1700E9F049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +115,7 @@
 			children = (
 				3644E6B424381AA3002EB6FE /* Tarea 08- Audiophobia */,
 				3644E6BF24381AEB002EB6FE /* Algoritmo de Floyd */,
+				36483AA32444AB1700E9F049 /* Multiplicación encadenada de matrices */,
 				3644E6A624381A62002EB6FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +126,8 @@
 				3644E6A524381A62002EB6FE /* Programas Clase de Algoritmos */,
 				3644E6B324381AA3002EB6FE /* Tarea 08- Audiophobia */,
 				3644E6BE24381AEB002EB6FE /* Algoritmo de Floyd */,
+				36483A972444AA7E00E9F049 /* Multiplicación Encadenada de Matrices */,
+				36483AA22444AB1700E9F049 /* Multiplicación encadenada de matrices */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +146,14 @@
 				3644E6C024381AEB002EB6FE /* main.cpp */,
 			);
 			path = "Algoritmo de Floyd";
+			sourceTree = "<group>";
+		};
+		36483AA32444AB1700E9F049 /* Multiplicación encadenada de matrices */ = {
+			isa = PBXGroup;
+			children = (
+				36483AA42444AB1700E9F049 /* main.cpp */,
+			);
+			path = "Multiplicación encadenada de matrices";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +210,40 @@
 			productReference = 3644E6BE24381AEB002EB6FE /* Algoritmo de Floyd */;
 			productType = "com.apple.product-type.tool";
 		};
+		36483A962444AA7E00E9F049 /* Multiplicación Encadenada de Matrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36483A9D2444AA7E00E9F049 /* Build configuration list for PBXNativeTarget "Multiplicación Encadenada de Matrices" */;
+			buildPhases = (
+				36483A932444AA7E00E9F049 /* Sources */,
+				36483A942444AA7E00E9F049 /* Frameworks */,
+				36483A952444AA7E00E9F049 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiplicación Encadenada de Matrices";
+			productName = "Multiplicación Encadenada de Matrices";
+			productReference = 36483A972444AA7E00E9F049 /* Multiplicación Encadenada de Matrices */;
+			productType = "com.apple.product-type.tool";
+		};
+		36483AA12444AB1700E9F049 /* Multiplicación encadenada de matrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36483AA62444AB1700E9F049 /* Build configuration list for PBXNativeTarget "Multiplicación encadenada de matrices" */;
+			buildPhases = (
+				36483A9E2444AB1700E9F049 /* Sources */,
+				36483A9F2444AB1700E9F049 /* Frameworks */,
+				36483AA02444AB1700E9F049 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiplicación encadenada de matrices";
+			productName = "Multiplicación encadenada de matrices";
+			productReference = 36483AA22444AB1700E9F049 /* Multiplicación encadenada de matrices */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -179,6 +260,12 @@
 						CreatedOnToolsVersion = 9.4;
 					};
 					3644E6BD24381AEB002EB6FE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					36483A962444AA7E00E9F049 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					36483AA12444AB1700E9F049 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -198,6 +285,8 @@
 				3644E6A424381A62002EB6FE /* Programas Clase de Algoritmos */,
 				3644E6B224381AA3002EB6FE /* Tarea 08- Audiophobia */,
 				3644E6BD24381AEB002EB6FE /* Algoritmo de Floyd */,
+				36483A962444AA7E00E9F049 /* Multiplicación Encadenada de Matrices */,
+				36483AA12444AB1700E9F049 /* Multiplicación encadenada de matrices */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +312,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3644E6C124381AEB002EB6FE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36483A932444AA7E00E9F049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36483A9E2444AB1700E9F049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36483AA52444AB1700E9F049 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +496,42 @@
 			};
 			name = Release;
 		};
+		36483A9B2444AA7E00E9F049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36483A9C2444AA7E00E9F049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36483AA72444AB1700E9F049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36483AA82444AB1700E9F049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66NFK28WJ5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,6 +567,24 @@
 			buildConfigurations = (
 				3644E6C324381AEB002EB6FE /* Debug */,
 				3644E6C424381AEB002EB6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36483A9D2444AA7E00E9F049 /* Build configuration list for PBXNativeTarget "Multiplicación Encadenada de Matrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36483A9B2444AA7E00E9F049 /* Debug */,
+				36483A9C2444AA7E00E9F049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36483AA62444AB1700E9F049 /* Build configuration list for PBXNativeTarget "Multiplicación encadenada de matrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36483AA72444AB1700E9F049 /* Debug */,
+				36483AA82444AB1700E9F049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

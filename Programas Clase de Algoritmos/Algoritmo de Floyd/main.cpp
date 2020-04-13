@@ -5,6 +5,8 @@
 //  Created by Jorge Soto on 3/30/20.
 //  Copyright © 2020 Jorge Soto. All rights reserved.
 //
+//  Complejidad del algoritmo: o^3
+//
 
 #include <iostream>
 #include <climits>

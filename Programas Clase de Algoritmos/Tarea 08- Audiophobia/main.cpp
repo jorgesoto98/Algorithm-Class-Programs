@@ -4,7 +4,9 @@
 //
 //  Created by Jorge Soto on 4/3/20.
 //  Copyright © 2020 Jorge Soto. All rights reserved.
-//
+
+//  Se modifico el algoritmo de floyd para guardar el valor del nodo mayor en el
+//  que se encontrara dentro del trayecto.
 
 #include <iostream>
 #include <climits>
