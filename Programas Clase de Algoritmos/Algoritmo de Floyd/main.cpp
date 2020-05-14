@@ -19,7 +19,7 @@ void leeArcos(int mat[100][100], int p[100][100], int m, int n){
         mat[i][i] = p[i][i] = 0;
         for (int j=i+1; j<100; j++) {
             mat[i][j] = mat[j][i] = INT_MAX;
-            p[i][j] = p[j][i]=-1;
+            p[i][j] = p[j][i]= -1;
         }
     }
     for (int i=1; i<=m; i++) {
