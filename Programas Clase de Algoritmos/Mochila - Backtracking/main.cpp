@@ -85,14 +85,14 @@ int main(){
     int vpAux = 0;
     int pesoAux = 0;
     int k = -1;
-    while (k < n && pesoAux+datos[k+1].peso <= PESO){
+    while (k < n && pesoAux + datos[k+1].peso <= PESO){
         k++;
         vpAux += datos[k].valor;
         pesoAux += datos[k].peso;
     }
     k++;
     if (k < n){
-        vpAux += ((PESO-pesoAux)*datos[k].valpeso);
+        vpAux += ((PESO-pesoAux) * datos[k].valpeso);
     }
 
     bt(-1,0,0,vpAux);
@@ -112,4 +112,12 @@ int main(){
  40 2
  50 10
  30 5
+ */
+
+/*
+ 4 10
+ 66 6
+ 50 5
+ 35 5
+ 18 3
  */

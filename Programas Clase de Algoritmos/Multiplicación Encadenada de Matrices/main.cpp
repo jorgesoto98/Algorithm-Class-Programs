@@ -18,6 +18,7 @@ void calcula(int D[MAX][MAX], int P[MAX][MAX], int d[MAX], int n){
     for (int i=1; i<=n; i++){
         D[i][i] = 0;
     }
+
     int j;
     for (int diag=1; diag<= n-1; diag++){
         for (int i = 1; i<=n-diag; i++) {
